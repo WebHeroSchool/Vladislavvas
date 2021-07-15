@@ -16,7 +16,7 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 50px;
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -44,6 +44,8 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 4px;
+  margin-right: 10px;
 }
 
 .menu__item {
@@ -93,7 +95,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 63% 150px 0;
   background: top right no-repeat url(img/ImageMain.svg);
 }
 
@@ -104,7 +106,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(#ECF3FF, #ECF3FF);
 }
 
 .main__description {
@@ -115,7 +117,8 @@ body {
 
 .main__button {
   display: inline-block;
-  padding: 18px 26px;
+  margin-left: 3px;
+  padding: 18px 28px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
@@ -127,4 +130,21 @@ body {
 .main__button:hover {
   opacity: .7;
   background: #7EE8D4;
+}
+
+.dots {
+  width: 32px;
+  height: 8px;
+  position: absolute;
+  top: 1027px;
+  left: 944px;
+}
+
+.dots__dot1, .dots__dot2, .dots__dot3 {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #C8DBFB;
+  opacity: .7;
+  border-radius: 50%;
 }
