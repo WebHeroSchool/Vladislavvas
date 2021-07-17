@@ -101,24 +101,25 @@ body {
 
 .main__title {
   padding-top: 76px;
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
   font: 700 66px/85px PT Serif, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(#ECF3FF, #ECF3FF);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ECF3FF 15%);
+  line-height: 88px;
 }
 
 .main__description {
   padding-right: 20%;
-  margin: 0 0 41px 0;
+  margin: 0 0 40px 0;
   font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
   margin-left: 3px;
-  padding: 18px 28px;
+  padding: 20px 34px 18px 24px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
