@@ -141,11 +141,20 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s, background 1s;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  from {transform: rotate(0deg);}
+  33% {transform: rotate(5deg);}
+  67% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
 }
 
 .main__button:hover {
   opacity: .7;
   background: #7EE8D4;
+  animation: shake .5s 5 ease-out;
 }
 
 .dots {
